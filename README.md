@@ -1,6 +1,3 @@
-# ucb_mids_w205_project_1
-ucb_mids_w205_project_1
-
 # Summary of Project
 
 This is an individual project that I completed as part of the course Fundamentals of Data Engineering, a core course for UC Berkeley's MIDS program. The goal of the project was to gain experience connecting to a SQL database, writing SQl queries, and visualizing data from these queries in a business user-friendly format. The output of this project is a series of recommendations for a fictional business, all of which are derived from data.
