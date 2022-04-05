@@ -6,10 +6,10 @@ import webbrowser
 #--------------------------------
 # Import Cocktail, Appetizer, MainCourse, and Dessert files as data frames
 
-cocktail_df = pd.read_csv("./Cocktail.csv")
-appetizer_df = pd.read_csv("./Appetizer.csv")
-main_course_df = pd.read_csv("./MainCourse.csv")
-dessert_df = pd.read_csv("./Dessert.csv")
+cocktail_df = pd.read_csv("./data/Cocktail.csv")
+appetizer_df = pd.read_csv("./data/Appetizer.csv")
+main_course_df = pd.read_csv("./data/MainCourse.csv")
+dessert_df = pd.read_csv("./data/Dessert.csv")
 
 #--------------------------------
 # Format output for terminal window
