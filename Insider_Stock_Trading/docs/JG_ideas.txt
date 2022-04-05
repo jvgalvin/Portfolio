@@ -1,0 +1,11 @@
+1. Pick a company and analyze what, if any, correlation exists between mentions of that company (or tweets by it / its CEO) and its stock price, within some time-constraint (i.e., past year). Could include different or additional sources and maybe some element of NLP.
+- Facebook
+- Amazon
+
+2. Use news / media coverage data (again, would need to whittle this down to something specific) of Virgin, Amazon, and Tesla to see how mentions of the space race and sentiment therein affected stock price leading up to and shortly after launch of their rockets into space
+
+3. Quantify the effect of the semiconductor shortage on the automobile and computer supply chains (sounds like this would be a huge undertaking full of assumptions)
+
+4. Analyze the effect of the semiconductor shortage on key companies' stock prices / financials (would have to determine which "key companies" we use)
+
+5. Pick a city prone to a climate disaster (Santa Rosa, New Orleans, etc) and see if weather data correlates with or predicts insurance rates (fire, hurricane respectively for example cities above)
