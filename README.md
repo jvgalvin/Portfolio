@@ -12,9 +12,6 @@ The purpose of this project was to gain experience / practice with object-orient
 # Data
 Although the recipes are not my own, they are some of my favorites. I personally assembled and structured the 4 csv files.
 
-# Tools Used
-I performed this analysis locally within Jupyter Notebook.
-
 # Instructions for Using the Menu Builder
   * Download the 4 csv files (Cocktail, Appetizer, MainCourse, and Dessert) to a directory
   * Download the menu.py file and place it in the same directory as the 4 csv files
