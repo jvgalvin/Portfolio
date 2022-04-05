@@ -1,0 +1,27 @@
+name,cuisine_type,primary_protein,health_rating,prep_effort,mood_pairing,occasion_pairing,directions_url
+Baked Halibut,american,fish,high,low,casual or sophisticated,"dinner with friends, date night, dinner party, or weeknight",https://www.allrecipes.com/recipe/237179/baked-halibut-with-crispy-panko/
+Grilled Chicken,american,chicken,high,low,casual,"dinner with friends, date night, or weeknight",https://www.onceuponachef.com/recipes/perfectly-grilled-chicken-breasts.html
+Meatballs,italian,pork,medium,low,casual,"dinner with friends, date night, dinner party, or weeknight",https://cooking.nytimes.com/recipes/1019765-pork-and-ricotta-meatballs
+Turkey Chili,american,turkey,medium,low,casual,dinner with friends or weeknight,https://cooking.nytimes.com/recipes/7985-turkey-chili
+Turkey Burgers,american,turkey,high,low,casual,dinner with friends or weeknight,https://tasty.co/recipe/spicy-southwestern-style-turkey-burgers
+Cheeseburgers,american,beef,low,low,casual,dinner with friends or weeknight,https://thenaughtyfork.com/auchevalburger/
+Arayes,israeli,lamb,medium,medium,casual,"dinner with friends, date night, dinner party, or weeknight",https://whatjewwannaeat.com/arayes-grilled-meat-stuffed-pitas/
+Chicken Tikka Masala,indian,chicken,low,medium,casual,"dinner with friends, date night, or weeknight",https://www.bonappetit.com/recipe/chicken-tikka-masala
+Chana Masala,indian,vegetarian,medium,medium,casual,"dinner with friends, date night, or weeknight",https://www.indianhealthyrecipes.com/chana-masala/
+Bucatini All'Amatriciana,italian,pork,low,medium,casual or sophisticated,"dinner with friends, date night, or dinner party",https://www.bonappetit.com/recipe/bucatini-all-amatriciana-2
+Stuffed Chicken Breast,american,chicken,high,medium,casual or sophisticated,"dinner with friends, date night, dinner party, or weeknight",https://www.allrecipes.com/recipes/1959/meat-and-poultry/chicken/chicken-breasts/stuffed/
+Stir Fry,chinese,vegetarian,high,low,casual,weeknight,https://therecipecritic.com/vegetable-stir-fry/
+Pork Ribs,american,pork,low,medium,casual,dinner with friends,https://cafedelites.com/oven-barbecue-ribs/
+Chile Verde,mexican,pork,low,high,casual,dinner with friends or weeknight,https://www.isabeleats.com/mexican-pork-chile-verde/
+Carnitas,mexican,pork,low,high,casual,dinner with friends or weeknight,https://www.isabeleats.com/mexican-slow-cooker-pork-carnitas-tacos/
+Barbacoa,mexican,beef,low,high,casual,dinner with friends or weeknight,https://www.cookingclassy.com/barbacoa/
+Vegetable Soup,italian,vegetarian,high,low,casual or sophisticated,dinner with friends or weeknight,https://www.cookingclassy.com/vegetable-soup/
+Chicken Piccata,italian,chicken,medium,high,casual or sophisticated,"dinner with friends, date night, or dinner party",https://themodernproper.com/chicken-piccata
+Veal Parmesean,italian,veal,low,high,casual or sophisticated,"dinner with friends, date night, or dinner party",https://www.majorfood.com/news-item/carbone-veal-parmesan/
+Flank Steak,american,beef,medium,low,casual or sophisticated,"dinner with friends, date night, dinner party, or weeknight",https://www.simplyrecipes.com/recipes/grilled_marinated_flank_steak/
+New York Steak,american,beef,low,low,casual or sophisticated,"dinner with friends, date night, or dinner party",https://www.myrecipes.com/recipe/pan-seared-strip-steak
+Filet Mignon,french,beef,medium,low,sophisticated,"dinner with friends, date night, or dinner party",https://www.delish.com/cooking/recipe-ideas/a23515113/how-to-cook-filet-mignon/
+Baked Salmon,american,fish,high,low,casual or sophisticated,"dinner with friends, date night, dinner party, or weeknight",https://www.foodnetwork.com/recipes/oven-baked-salmon-recipe-1911951
+Coq Au Vin,french,chicken,medium,high,sophisticated,"dinner with friends, date night, or dinner party",https://cooking.nytimes.com/recipes/1018529-coq-au-vin
+Grilled Pork Tenderloin,american,pork,high,low,casual or sophisticated,"dinner with friends, dinner party, or weeknight",https://www.lecremedelacrumb.com/best-ever-healthy-grilled-pork-tenderloin/
+Grilled Pork Chops,american,pork,high,low,casual or sophisticated,"dinner with friends, dinner party, or weeknight",https://www.foodnetwork.com/recipes/sunny-anderson/easy-grilled-pork-chops-recipe-2106547
