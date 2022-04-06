@@ -1,6 +1,9 @@
 # Purpose
 The purpose of creating this script was to make the prospecting process more efficient. Note this was created while I was an Account Executive and is specifically targeted for identifying prospective customers for Business Intelligence / Anlytics Software.
 
+# Date
+This project was completed in January 2021.
+
 # Context
 I was provided with a list of nearly 2,000 companies and their HQ zip codes by my former employer. This list represented the companies which I was expected to target. I thought that it would be more efficient to deploy a more automated way of targeting likely customers than sifting through 2,000 companies manually.
 
