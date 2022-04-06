@@ -1,6 +1,9 @@
 # Purpose
 The purpose of this personal project is to practice ingesting data from multiple sources, processing and preparing data for a machine learning task, and implementing a machine learning model.
 
+# Date
+This project was completed in May 2021.
+
 # Context
 Several articles indicate that a subset of BitCoin addresses have the power to manipulate the value of the currency. These addresses are dubbed the BitCoin "whales." I determined that if one could accurately predict when the whales would sell the currency, one could short the currency beforehand to make a profit. I hypothesized that fluctuations in the price of BTC may influence when whales buy and sell the currency.
 
