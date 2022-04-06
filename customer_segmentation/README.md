@@ -8,7 +8,7 @@ This project was completed in February 2021.
 This was a self-inspired project that I identified and completed to make more efficient use of my time in a former sales role.
 
 # Data
-The data used was and is not publicly avaialable and several cells have been removed or redacted to protect confidentiality.
+The data used was and is not publicly avaialable and several cells have been removed or redacted to protect confidentiality. The data came from Salesforce.
 
 # Tools Used
 I performed this analysis locally within Jupyter Notebook.
