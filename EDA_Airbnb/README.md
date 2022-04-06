@@ -1,6 +1,9 @@
 # Purpose
 The purpose of this personal project was to conduct an exploratory data analysis.
 
+# Date
+This project was completed in March 2021.
+
 # Context
 This was conducted during the early stages of the Coronvirus-19 outbreak. I had moved back to California from New York and wondered how COVID-19 may have impacted the peer-to-peer housing market in New York City.
 

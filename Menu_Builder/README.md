@@ -1,6 +1,9 @@
 # Purpose
 The purpose of this project was to gain experience / practice with object-oriented design priciples within Python.
 
+# Date
+This project was completed in October 2021.
+
 # Context
 * Cooking is fun, can be healthy, and is highly social. Figuring out what to cook, however, is not (at least for me).
 * This program has 4 different modes to speed up the menu selection process:
