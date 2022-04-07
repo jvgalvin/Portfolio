@@ -20,18 +20,19 @@
 
 ## Implementation
 
-### Phase One
-### Establish four BART pick-up locations. Two of these will offer drone delivey service. 
+### Phase One - Establish four BART pick-up locations. Two of these will offer drone delivey service. 
 
-### Phase Two
-### If current drone-delivery service locations show significantly higher customer traffic, then expand drone-delivery service to all locations. 
+### Phase Two - If current drone-delivery service locations show significantly higher customer traffic, then expand drone-delivery service to all locations. 
 
-### Phase Three
-### After analysis of current customer base, consider establishing more BART pick-up location in areas outside current drone-delivery service. 
+### Phase Three - After analysis of current customer base, consider establishing more BART pick-up location in areas outside current drone-delivery service. 
 
+## Files & Folders
 
+### data
 
+### gmap_api_key.txt
 
+### notebooks
 
-
+### README.md
 
