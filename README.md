@@ -2,6 +2,10 @@
 
 The goal of this project was to gain additional experience connecting to a SQL database, writing SQl queries, and visualizing data from these queries in a business user-friendly format. Moreover, I gained experience creating staging tables in PostgreSQL, parsing JSON, loading data into PostgreSQL, and validating data once it was loaded to staging tables. Like my "query_functional_programming" project, the output of this project is a recommendation for a fictional business, which was derived from synthetic data.
 
+# Context
+
+A fictitious meal delivery business (AGM) is considering adding a delivery option to capture additional customers. It conducts a proof of concept with a delivery service, Peak Deliveries. Executives want to know how fruitful this relationship could be.
+
 # Date
 
 This project was completed in February 2022.
