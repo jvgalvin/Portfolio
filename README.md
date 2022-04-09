@@ -40,10 +40,11 @@ Meals will continue to be made within the existing Berkeley store. Carriers will
 
 Satellite pickup locations are chosen based on the following criteria:
 
-* The BART station must have a higher measure of betweenness centrality than the North Berkeley store. This is a measurement of how many BART paths pass through that given station.
-* The BART station must have a denser population than the North Berkeley store within a 1.5 mile radius.
+* The BART station must have a higher measure of betweenness centrality than the Ashby station. This is a measurement of how many BART paths pass through that given station.
 * Travel time from the Ashby station (closest BART station to the existing store location) to satellite locations is considered using shortest path (Dijkstra)
 * Delivery radii for drones must not overlap
+
+Under the criteria above, preference is given to stations that serve the highest population.
 
 ## Implementation
 
@@ -51,16 +52,35 @@ Opening of satellite pickup locations should be phased so as to avoid the risk o
 
 ### Phase One - Establish 4 bellwether BART pick-up locations
 
-[put which ones here...2 drone, 2 non-drone]
+* Glen Park
+* Civic Center
+* Lake Merritt
+* Fruitvale
 
 ### Phase Two - Implement additional locations using lessons learned from phase one
 
-[If current drone-delivery service locations show significantly higher customer traffic, then expand drone-delivery service to additional locations from the data frame (list these out) of candidatesl...probably should keep relatively close to Berkeley to limit cost of transporting meals] 
+We will compare the total sales value attributable to drone deliveries against that of in-person pickups at the new locations and recommend a best course of action using this data.
 
 ### Phase Three - Expand beyond the East Bay and San Francisco Peninsula
 
-[Consider establishing more BART pick-up location in areas outside current drone/pickup-delivery service.]
+After Phase Two, we will examine how best to scale this new delivery operation.
 
 ## Cost Benefit Analysis
 
-[insert here]
+While we expect significant benefits from AGM expansion in the Bay Area, there are also costs that need to be taken into account. Much of the expansion has centered around using BART stations for delivery and pickup locations, however each BART ride has a cost and the more extensive use of the BART system, the higher the costs will be. In order to determine how many BART trips are required to fulfill the pickup requests, we decided to extrapolate the number of delivery orders took place in the Peak Deliveries proof-of-concept. In the one-day trial, Peak delivered 540 meals to customers from the Berkeley store. It is difficult to forecast future demand, but we project to double the number of meals delivered by Peak because there are several times more customers in our delivery range, but there may be some uncetainty in our customers using these new options. Our projection is to deliver 1080 meals per day across the differnt locations with our new delivery options. The final piece of the puzzle is the number of meals that can be transported in a single trip using BART. Based on our industry knowledge, we are projecting a carrier can transport 30 meals in each trip, which would require 9 round-trip BART rides for each location.
+
+### Transportation Costs by Station (Roundtrip from Ashby)
+
+Glen Park transportation costs: $81.90
+Civic Center transportation costs: $74.70
+Lake Merritt transportation costs: $37.80
+Fruitvale transportation costs: $41.40
+Total daily transportation costs: $235.80
+
+### Drone Price
+
+Based on preliminary research, we have found the retail price for a delivery drone is $4,000. In Phase 1 of the new delivery options, we recommend starting with one drone per pickup location which would total at $16,000.
+
+### Projected Profit
+
+Based on our projections of 1080 meals sold in a day, that would amount to $12,960 in new daily sales based on the fixed price of $12 per meal. The projected overall profit is $4602884.60 annually.
