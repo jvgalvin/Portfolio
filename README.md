@@ -32,9 +32,7 @@ This analysis follows a logical series of steps:
 
 ## Decision Criteria
 
-Adding more pickup locations is considered a relatively easy way to grow the customer base. Creating pickup locations requires renting (or purchasing) property, renovating (or building) space in a way that is suitable for the business.
-
-Locations at or near BART stations would be good choices because BART riders could easily pick up meals at the stations they travel through on the way to or from work.
+Adding more pickup locations is considered a relatively easy way to grow the customer base. Locations at or near BART stations would be good choices because BART riders could easily pick up meals at the stations they travel through on the way to or from work. Additionally, setting up pickup locations in BART stations would be a low-overhead way to reach new customer bases.
 
 Meals will continue to be made within the existing Berkeley store. Carriers will bring meals to 4 new satellite pickup locations located within BART stations twice daily on weekdays, once in the morning and once in the late afternoon. Drones will deliver meals within a 1.5 mile radius of a given satellite pickup location for an additional fee. Alternatively, customers will have the option to pick the meals up in person within the BART station, without having to leave the turnstiles.
 
