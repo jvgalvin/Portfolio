@@ -4,6 +4,10 @@
 
 The goal of this project was to gain additional experience connecting to a SQL database, writing SQl queries, visualizing data from these queries in a business user-friendly format, and building a graph database in Neo4j. Like my "query_functional_programming" and "user_activity" projects, the output of this project is a recommendation for a fictional business, which was derived from synthetic data.
 
+## Structure of the Repository
+
+This repository has raw data (for building the database in PostgreSQL and Neo4j) in the data folder. There are two notebooks in the notebooks folder - one is used to process the raw data and build the graph database of the BART network and the other is used for analysis.
+
 ## Context
 
 Executives at a fictitious meal preparation company have expressed a desire to expand operations beyond just a single store (in North Berkeley). They would like data-driven recommendations on how the company can capitalize on market opportunities in the greater Bay Area.
