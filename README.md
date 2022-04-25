@@ -8,6 +8,8 @@ The goal of this project was to gain additional experience connecting to a SQL d
 
 This repository has raw data (for building the database in PostgreSQL and Neo4j) in the data folder. There are two notebooks in the notebooks folder - one is used to process the raw data and build the graph database of the BART network and the other is used for analysis.
 
+The pdf file is a final presentation based on findings.
+
 ## Context
 
 Executives at a fictitious meal preparation company have expressed a desire to expand operations beyond just a single store (in North Berkeley). They would like data-driven recommendations on how the company can capitalize on market opportunities in the greater Bay Area.
