@@ -1,4 +1,8 @@
-# The New Era of Meal Delivery (Grade)
+# The New Era of Meal Delivery
+
+## Summary of Project
+
+The goal of this project was to gain additional experience connecting to a SQL database, writing SQl queries, visualizing data from these queries in a business user-friendly format, and building a graph database in Neo4j. Like my "query_functional_programming" and "user_activity" projects, the output of this project is a recommendation for a fictional business, which was derived from synthetic data.
 
 ## Context
 
