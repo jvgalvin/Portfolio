@@ -10,9 +10,9 @@ Training a neural network for image classification from the ground up requires l
 Everybody who knows me or who has looked at my website knows that I love French Bulldogs. So, I decided that in lieu of doing the standard MNIST digit or fashion image classification tasks that pervade the internet, that I would use transfer learning to train a neural network capable of recognizing images of my own Frenchie, Lucy.
 
 # Data
-I have hundreds of images of Lucy, naturally. To gather images for the negative class, I used Beautiful Soup to comb the web and download pictures of random French Bulldogs (various colors, sizes, orientations, lighting conditions, etc. are represented in the training set for both the positive and negative classes).
+I have tons of images of Lucy, naturally. To gather images for the negative class, I used Beautiful Soup to comb the web and download pictures of random French Bulldogs (various colors, sizes, orientations, lighting conditions, etc. are represented in the training set for both the positive and negative classes). Additionally, I sourced images from https://images.cv/dataset/french-bulldog-image-classification-dataset.
 
-The training set consists of 122 images of Lucy and 99 images of random Frenchies. The validation set consists of 31 images of Lucy and 25 images of random Frenchies.
+The training set consists of 137 images of Lucy and 136 images of random Frenchies. The validation set consists of 31 images of Lucy and 25 images of random Frenchies.
 
 # Network
 I chose ResNet50, which is a CNN that was trained on over one million images from the ImageNet database.
