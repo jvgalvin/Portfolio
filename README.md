@@ -1,4 +1,14 @@
 # Portfolio Projects
+## Lucy Classifier
+### Context and Objective
+I've become more interested in computer vision and wanted to try my hand at training a neural network that could discriminate between images of my own French Bulldog and other random Frenchies. The objective was to use transfer learning to achieve a validation accuracy of 0.9 or higher.
+### Data, Libraries, and Environment
+The images of Lucy were taken by my family, friends, and me. The other images of Frenchies came from the Stanford Dogs Dataset. I trained the neural network locally and used Tensorflow as my training framework.
+### Results and Impact
+The network achieves a validation accuracy of 0.92 and a test accuracy of 0.96 (test set is smaller than validation set). A full writeup can be found here on Medium.
+### Learnings
+Data preparation for computer vision projects should not be underestimated - time and complexity should be expected, despite how simple the task might seem. Training and validation data must be sufficiently similar. Image classification is easier understood than implemented.
+
 ## Airbnb Exploratory Data Analysis
 ### Context and Objective
 March 2021 marked one year after my return to the Bay Area. My interest in further developing programming skills was growing and I thought an analysis of my former home city’s peer-to-peer housing market would offer me an opportunity to practice some Pandas and data visualization basics. The objective of this project was to quantify the extent to which Airbnb listings changed during the first year of Covid-19.
