@@ -18,7 +18,7 @@ The training set consists of 137 images of Lucy and 136 images of random Frenchi
 I chose ResNet50, which is a CNN that was trained on over one million images from the ImageNet database.
 
 # Top Line Summary
-My classifier reaches a peak validation accuracy of 0.95 after 15 epochs. It reaches a test accuracy of 1.
+My classifier reaches a peak validation accuracy of 0.95 after 15 epochs. It reaches a test accuracy of 0.96.
 
 # Writeup
-TBD
+Medium post can be found here: https://johnvgalvin.medium.com/transfer-learning-with-resnet50-lucy-french-bulldog-classifier-146029c8f112
