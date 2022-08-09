@@ -5,7 +5,7 @@ I've become more interested in computer vision and wanted to try my hand at trai
 ### Data, Libraries, and Environment
 The images of Lucy were taken by my family, friends, and me. The other images of Frenchies came from the Stanford Dogs Dataset. I trained the neural network locally and used Tensorflow as my training framework.
 ### Results and Impact
-The network achieves a validation accuracy of 0.92 and a test accuracy of 0.96 (test set is smaller than validation set). A full writeup can be found here on Medium.
+The network achieves a validation accuracy of 0.92 and a test accuracy of 0.96 (test set is smaller than validation set). A full writeup can be found on Medium.
 ### Learnings
 Data preparation for computer vision projects should not be underestimated - time and complexity should be expected, despite how simple the task might seem. Training and validation data must be sufficiently similar. Image classification is easier understood than implemented. Training the model is only half the battle - deployment is nontrivial.
 
@@ -15,7 +15,7 @@ March 2021 marked one year after my return to the Bay Area. My interest in furth
 ### Data, Libraries, and Environment
 The data for this project was sourced from the Inside Airbnb data repository. After downloading the relevant files, I used Pandas, Seaborn, and Matplotlib to clean, explore, and analyze the data. All of this was done locally within a Jupyter Notebook.
 ### Results and Impact
-As suspected, the total number of Airbnb listings plummeted. The average price per night fell more across Manhattan listings than it did across Brooklyn listings, despite an equivalent drop in the total number of listings in both boroughs. A full writeup can be found here on Medium.
+As suspected, the total number of Airbnb listings plummeted. The average price per night fell more across Manhattan listings than it did across Brooklyn listings, despite an equivalent drop in the total number of listings in both boroughs. A full writeup can be found on Medium.
 ### Learnings
 This project taught me the importance of thoroughly exploring a data set. Although my goal was one of description, my exploratory data analysis revealed ancillary questions of explanation (what causes the difference in average price across boroughs) and prediction (what will average prices look like for the next year) that I may not have imagined if I had not closely examined the data set.
 
@@ -25,7 +25,7 @@ Bitcoin prices were rising rapidly at the time I conducted this project (May 202
 ### Data, Libraries, and Environment
 The data for this project was sourced from the BitInfoCharts and Cryptodatadownload. I downloaded the historical Bitcoin prices and manually created the transaction history for the 100 richest Bitcoin addresses. I used Pandas for preprocessing and feature engineering and Plotly for interactive visualizations. I chose to use a random forest classifier due to its relative resistance to overfitting. All of this was done locally within a Jupyter Notebook.
 ### Results and Impact
-My model achieved an AUC (area under the curve) score of 0.73. For those with more capital to spare, using this model as guidance may serve you very well when the Bitcoin bubble busts (alliteration totally intended). A full writeup can be found here on Medium.
+My model achieved an AUC (area under the curve) score of 0.73. For those with more capital to spare, using this model as guidance may serve you very well when the Bitcoin bubble busts (alliteration totally intended). A full writeup can be found on Medium.
 ### Learnings
 This project taught me how important it is to be precise when defining a research question. In hindsight, I would not use classification for this type of question, as I would be more interested in knowing what the price will likely be within the next 24 hours - and form an investment decision accordingly.
 
