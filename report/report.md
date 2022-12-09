@@ -6,8 +6,6 @@ author: Adam Childs and Jack Galvin
 email: \{adamchilds, jgalvin\}\@berkeley.edu
 abstract: Classification of direct- and quasi-identifiers in unstructured text is a task of increasing importance to privacy preservation and responsible data set creation. Although intersecting with well-studied Named Entity Recognition (NER) tasks (e.g. person identification, coreference resolution, location identification), classification of identifiers presents challenges due to the broad definition of identifiers and the length of content over which identifier context must be considered. Entities within legal and medical documents are often named at the beginning of the document with coreferences appearing thousands of tokens later.  We reproduce a state-of-the-art baseline for the identification of direct- and quasi-identifiers achieved with Longformer and present two improvements of token classification performance, as measured by $AUC_{pr}$. Additionally, we share results from a DeBERTA and BERT implementation to demonstrate Longformer advantage and test the benefit of NER-specific pretrained embeddings. We conclude by discussing the strengths and weaknesses of each model.
 
-class: UC Berkeley w266 Final Project
-instructor: Daniel Cer PhD
 date: \{adamchilds, jgalvin\}\@berkeley.edu
 ---
 
