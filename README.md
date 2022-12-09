@@ -1,4 +1,14 @@
 # Portfolio Projects
+## Natural Language Processing - Classification of Direct- and Quasi-Identifiers with Transformers
+### Context and Objective
+Classification of direct- and quasi-identifiers in unstructured text is a task of increasing importance to privacy preservation and responsible data set creation. Although intersecting with well-studied Named Entity Recognition (NER) tasks (e.g. person identification, coreference resolution, location identification), classification of identifiers presents challenges due to the broad definition of identifiers and the length of content over which identifier context must be considered. Entities within legal and medical documents are often named at the beginning of the document with coreferences appearing thousands of tokens later. Accurate detection and masking of such identifiers could unlock datasets that would otherwise be locked to researchers based on privacy. My objective was to develop transformer models that beat the existing state-of-the-art benchmark for classification of direct- and quasi-identifiers.
+### Data, Libraries, and Environment
+The data was sourced from Pilán et. al. (reference in paper, see repo). Data consisted of 1,268 documents from the European Court of Human Rights and 553 out-of-domain Wikipedia articles. All Longformer models were trained on a VM on GCP with 96 CPU and 600+ GB of memory. Training framework for Longformer was Tensorflow and framework for DeBERTa was Pytorch.
+### Results and Impact
+I beat the state-of-the-art benchmark by concatenating the hidden states from the Longformer with document-level embeddings from SPECTER and feeding the concatenated tensor to a deep neural network. This model can be further improved by adjusting the sliding attention window of the Longformer. Additionally, follow up work would address how to replace tokens which are masked with meaningful alternatives so that such datasets could be used by researchers.
+### Learnings
+Combining deep learning with state-of-the-art models in NLP can have a massive impact across verticals. In my opinion, NLP stands to disrupt verticals which have not yet reaped the benefits of machine learning (i.e., venture capital, investment/asset management, legal).
+
 ## Lucy Classifier
 ### Context and Objective
 I've become more interested in computer vision and wanted to try my hand at training a neural network that could discriminate between images of my own French Bulldog and other random Frenchies. I also wanted to deploy this as a lightweight Flask app. The objective was to use transfer learning to achieve a validation accuracy of 0.9 or higher.
