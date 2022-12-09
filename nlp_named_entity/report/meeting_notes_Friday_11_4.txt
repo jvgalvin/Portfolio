@@ -1,0 +1,41 @@
+Notes: 
+Model precision, recall to be calculated with the rule: if a span is not completely masked, then it is considered leaking information, and not counted.
+Can we try GPT3?
+
+For every model:
+http://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_curve.html
+
+
+Base Model
+
+Longformer: allenai/longformer-base-4096
+
+Model Param count
+
+Longformer: 148,070,402
+
+Training info:
+- GB mem
+- CPU
+- GPU?
+- Training Time
+
+Longformer: 96 CPU, 4 GPU (but GPU not enabled on training), 7.38 hours to train, 0.9863 accuracy, 0.0346 loss, 2 epochs, batch size of 1, Adam optimizer, 2e-5 learning rate
+
+Accuracy
+Loss
+Epoch
+Batch size
+Optimizer
+Learning Rate
+
+Precision
+Recall - for both, not distinguishing between the two.
+AUCpr
+
+Longformer: Precision - 0.9302261898241962, Recall - 0.6816631215635911, AUC: 0.8524968985862243
+
+Misc Details:
+Model Arch Notes, e.g. custom layers
+
+Longformer: single linear inference layer on top of base model
