@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logger
+spec:
+  selector:
+    matchLabels:
+      app: logger
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: logger
+    spec:
+      containers:
+      - name: listener
+        image: jvgalvin/logger:v1
