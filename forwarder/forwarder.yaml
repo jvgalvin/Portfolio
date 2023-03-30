@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: forwarder
+spec:
+  selector:
+    matchLabels:
+      app: forwarder
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: forwarder
+    spec:
+      containers:
+      - name: forwarder
+        image: jvgalvin/forwarder:v1
