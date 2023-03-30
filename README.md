@@ -1,4 +1,13 @@
 # Portfolio Projects
+## End-to-End Containerized Face Detection App
+### Context and Objective
+The benefits of containerization are well-known. Compared to monolitihic applications, containerized applications are easier to ship, simpler to maintain, can run anywhere, and have resusable components. The goal of this project was to build an end-to-end containerized application.
+### Data, Libraries, and Environment
+There was no data acquisition or model training in this project, as I resused the pre-trained frontal face HAAR Cascade Classifier from OpenCV. The application is intended to capture a live video stream from an edge device (or VM emulation of an edge device) running on an ARM64 architecture and send individual frames for processing via MQTT to and cloud machine with an x86 architecture. The faces are extracted from each frame and sent to an S3 bucket for storage. The entire application is containerized and runs on K3s (lightweight version of Kubernetes).
+### Results and Impact
+I successfully built and deployed this application according to the requirements above. It is completely containerized, so any of these pieces can be reused and run anywhere. Additionally, the face detection model can be swapped out for a more sophisticated one. See the link for more details and access to the S3 bucket.
+### Learnings
+This project taught me how useful Docker containers and Kubernetes are for cloud-native technologies.
 ## Natural Language Processing - Classification of Direct- and Quasi-Identifiers with Transformers
 ### Context and Objective
 Classification of direct- and quasi-identifiers in unstructured text is a task of increasing importance to privacy preservation and responsible data set creation. Although intersecting with well-studied Named Entity Recognition (NER) tasks (e.g. person identification, coreference resolution, location identification), classification of identifiers presents challenges due to the broad definition of identifiers and the length of content over which identifier context must be considered. Entities within legal and medical documents are often named at the beginning of the document with coreferences appearing thousands of tokens later. Accurate detection and masking of such identifiers could unlock datasets that would otherwise be locked to researchers based on privacy. My objective was to develop transformer models that beat the existing state-of-the-art benchmark for classification of direct- and quasi-identifiers.
