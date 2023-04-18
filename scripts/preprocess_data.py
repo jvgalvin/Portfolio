@@ -20,6 +20,6 @@ for i in range(len(dialogues)):
 
 df = pd.DataFrame()
 df["dialogue"] = cleaned_dialogues
-df["summary"] = summaries
+df["ground_truth"] = summaries
 
 df.to_csv("../data/processed/processed.csv", index=False)
