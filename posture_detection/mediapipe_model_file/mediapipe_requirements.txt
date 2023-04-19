@@ -1,0 +1,8 @@
+chime==0.7.0
+mediapipe==0.9.1.0
+numpy==1.21.5
+opencv_python==4.6.0.66
+pandas==1.4.3
+Pillow==9.5.0
+scikit_learn==1.2.2
+tensorflow==2.8.0

@@ -1,0 +1,22 @@
+#FROM nvcr.io/nvidia/l4t-base:r32.4.3
+FROM nvcr.io/nvidia/deepstream-l4t:6.1.1-base
+
+RUN apt-get update
+RUN apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl vim-tiny \
+    gnupg-agent \
+    software-properties-common
+RUN apt-key adv --fetch-key https://repo.download.nvidia.com/jetson/jetson-ota-public.asc
+## This matches the nx2 and the current jetpack version
+RUN add-apt-repository "deb https://repo.download.nvidia.com/jetson/common r32.4 main"
+RUN add-apt-repository "deb https://repo.download.nvidia.com/jetson/t194 r32.4 main"
+
+COPY . .
+
+RUN apt-get update
+RUN apt install -y nvidia-opencv python3-dev python3-pip 
+RUN pip3 install -r movenet_requirements.txt
+# example from https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
+CMD python3 movenet_loop.py
