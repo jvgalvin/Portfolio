@@ -1,4 +1,13 @@
 # Portfolio Projects
+## Detection of Seated Posture from a User-Facing Webcam
+### Context and Objective
+Sitting for prolonged periods of time with bad posture can result in serious spinal and health complications. While certain chairs and cushions promote good posture, they are expensive and not easily transported. This project presents four machine learning models that are capable of detecting good and bad posture from a user-facing webcam. I show that using existing pose estimation models to extract body keypoints from single frames and feeding these latent representations through a fully-connected classification head produces more accurate results than fine-tuning existing image recognition models. I also show that three dimensional feature extraction is more accurate than two dimensional extraction. Two of these models have been quantized, deployed on an NVIDIA Jetson Xavier NX device, and include a user-facing chime to correct sustained (60s) bad posture.
+### Data, Libraries, and Environment
+Video data was captured by myself and my teammates using the webcams in our laptops. Individual frames were extracted, labeled, and used to train 4 different models. This was done locally and models are available in PyTorch and Tensforflow frameworks.
+### Results and Impact
+Two models achieve over 0.80 accuracy. MoveNet was quantized, containerized, and deployed on a Jetson Xavier device for inference at the edge using live video. These models correct bad posture and can potentially mitigate what could otherwise be spinal or health complications as a result of prolonged bad posture.
+### Learnings
+This project reinforced how important high quality training data is for computer vision applications and taught me the importance of considerations for inference at the edge before training a model.
 ## End-to-End Containerized Face Detection App
 ### Context and Objective
 The benefits of containerization are well-known. Compared to monolitihic applications, containerized applications are easier to ship, simpler to maintain, can run anywhere, and have resusable components. The goal of this project was to build an end-to-end containerized application.
