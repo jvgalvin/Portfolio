@@ -15,8 +15,9 @@ for i in range(len(file)):
 cleaned_dialogues = []
 
 for i in range(len(dialogues)):
-    newstr = dialogues[i].replace("\r\n", "    ")
-    cleaned_dialogues.append(newstr)
+    newstr = dialogues[i].replace("\r\n", "   ")
+    dia = newstr.replace("\n", "   ")
+    cleaned_dialogues.append(dia)
 
 df = pd.DataFrame()
 df["dialogue"] = cleaned_dialogues
