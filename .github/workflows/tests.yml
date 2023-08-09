@@ -1,4 +1,4 @@
-
+---
 name: GitHub Workflow Lab 2
 
 on: [pull_request]
@@ -7,11 +7,11 @@ jobs:
       runs-on: ubuntu-latest
       defaults:
          run:
-            working-directory: ./lab_2/lab2
+            working-directory: ./mlapi
       strategy:
          fail-fast: false
          matrix:
-            python-version: [3.11]
+            python-version: [3.10.12]
 
       steps:
          - name: Checkout code
